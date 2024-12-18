@@ -1,0 +1,12 @@
+# TODO List
+
+- [x] Created a health check endpoint at `GET /api/v1/health/ping`
+- [x] Implemented dynamic timestamp and version retrieval from `package.json`
+- [x] Set up the health module and controller
+
+- [x] Test the health check endpoint to ensure it returns the expected JSON structure
+- [ ] Implement actual health checks for the database, cache, and message queue (if necessary)
+- [x] Add typeorm
+- [x] Create schemas for the database
+- [x] Syncronize the database schema
+- [x] Check register and login endpoints

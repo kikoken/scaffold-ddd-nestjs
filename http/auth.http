@@ -1,0 +1,25 @@
+### Login
+POST http://localhost:3000/api/v1/auth/login
+Content-Type: application/json
+
+{
+    "dni": "11111111-1",
+    "password": "newpassword"
+}
+
+### Register
+POST http://localhost:3000/api/v1/auth/register
+Content-Type: application/json
+
+{
+    "dni": "11111111-1",
+    "name": "New User",
+    "lastName": "Last Name",
+    "email": "newuser@example.com",
+    "phone": "1234567890",
+    "password": "newpassword"
+}
+
+### Health Check
+GET http://localhost:3000/api/v1/health/ping
+
