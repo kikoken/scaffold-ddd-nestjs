@@ -155,7 +155,7 @@ Content-Type: application/json
     "dni": "11111111-1",
     "password": "newpassword"
 }
-
+```
 ## Monitoring & Telemetry
 OpenTelemetry
 The application uses OpenTelemetry for observability, providing:
